@@ -1,0 +1,1045 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  <head>
+    <title>
+      {733} Requisitos do Projeto SGCloudFiscal202208 – SG Sistemas
+    </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if IE]><script type="text/javascript">
+      if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+    </script><![endif]-->
+        <link rel="search" href="/sgsistemas/search" />
+        <link rel="help" href="/sgsistemas/wiki/TracGuide" />
+        <link rel="alternate" href="/sgsistemas/login?referer=%2Fsgsistemas%2Freport%2F733%3Fasc%3D1%26max%3D0%26format%3Drss" type="application/rss+xml" class="rss" title="RSS Feed" /><link rel="alternate" href="/sgsistemas/report/733?asc=1&amp;max=0&amp;page=1&amp;format=csv" type="text/plain" title="Comma-delimited Text" /><link rel="alternate" href="/sgsistemas/report/733?asc=1&amp;max=0&amp;page=1&amp;format=tab" type="text/plain" title="Tab-delimited Text" /><link rel="alternate" href="/sgsistemas/report?id=733&amp;format=sql" type="text/plain" title="SQL Query" />
+        <link rel="up" href="/sgsistemas/report" title="Available Reports" />
+        <link rel="start" href="/sgsistemas/wiki" />
+        <link rel="stylesheet" href="/sgsistemas/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/sgsistemas/chrome/common/css/report.css" type="text/css" /><link rel="stylesheet" href="/sgsistemas/chrome/tracwysiwyg/wysiwyg.css" type="text/css" />
+        <link rel="tracwysiwyg.stylesheet" href="/sgsistemas/chrome/common/css/trac.css" /><link rel="tracwysiwyg.stylesheet" href="/sgsistemas/chrome/tracwysiwyg/editor.css" />
+        <link rel="tracwysiwyg.base" href="/sgsistemas" />
+        <link rel="shortcut icon" href="/sgsistemas/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/sgsistemas/chrome/common/trac.ico" type="image/x-icon" />
+    <style id="trac-noscript" type="text/css">.trac-noscript { display: none !important }</style>
+      <link type="application/opensearchdescription+xml" rel="search" href="/sgsistemas/search/opensearch" title="Search SG Sistemas" />
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/jquery.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/babel.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/trac.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/search.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/tracwysiwyg/wysiwyg.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/tracwysiwyg/wysiwyg-load.js"></script>
+    <script type="text/javascript">
+      jQuery("#trac-noscript").remove();
+      jQuery(document).ready(function($) {
+        $(".trac-autofocus").focus();
+        $(".trac-target-new").attr("target", "_blank");
+        setTimeout(function() { $(".trac-scroll").scrollToTop() }, 1);
+        $(".trac-disable-on-submit").disableOnSubmit();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="http://projetos.sgsistemas.com.br/sgsistemas"><img src="/sgsistemas/chrome/common/trac_banner.png" alt="" /></a>
+      </div>
+      <form id="search" action="/sgsistemas/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first">logged in as cassiano</li><li><form action="/sgsistemas/logout" class="trac-logout" id="logout" method="post"><div><input type="hidden" name="__FORM_TOKEN" value="34551b532a0ec1f162f4ce05" /></div><div><button type="submit" name="logout">Logout</button></div></form></li><li><a href="/sgsistemas/wiki/TracGuide">Help/Guide</a></li><li><a href="/sgsistemas/about">About Trac</a></li><li class="last"><a href="/sgsistemas/prefs">Preferences</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first"><a href="/sgsistemas/wiki">Wiki</a></li><li><a href="/sgsistemas/timeline">Timeline</a></li><li><a href="/sgsistemas/roadmap">Roadmap</a></li><li><a href="/sgsistemas/browser">Browse Source</a></li><li class="active"><a href="/sgsistemas/report">View Tickets</a></li><li><a href="/sgsistemas/newticket">New Ticket</a></li><li><a href="/sgsistemas/search">Search</a></li><li class="last"><a href="/sgsistemas/admin">Admin</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+        <ul>
+          <li class="first"><a href="/sgsistemas/report">Available Reports</a></li><li class="last"><a href="/sgsistemas/query">Custom Query</a></li>
+        </ul>
+        <hr />
+      </div>
+    <div id="content" class="report">
+      <h1>{733} Requisitos do Projeto SGCloudFiscal202208
+        <span class="numrows">(30 matches)</span>
+      </h1>
+      <form method="get" action="">
+        <div id="prefs">
+          <div>
+            <label>
+              Max items per page
+              <input type="text" name="max" size="10" value="0" />
+            </label>
+          </div>
+          <div class="buttons">
+            <input type="submit" value="Update" />
+          </div>
+        </div>
+      </form>
+      <div class="buttons">
+        <form action="" method="get">
+          <div>
+            <input type="hidden" name="action" value="edit" />
+            <input type="submit" value="Edit report" />
+          </div>
+        </form>
+        <form action="" method="get">
+          <div>
+            <input type="hidden" name="action" value="copy" />
+            <input type="submit" value="Copy report" />
+          </div>
+        </form>
+        <form action="" method="get">
+          <div>
+            <input type="hidden" name="action" value="delete" />
+            <input type="submit" value="Delete report" />
+          </div>
+        </form>
+      </div>
+      
+        <h2 class="report-result">
+          Projeto SGCloudFiscal202208
+          <span class="numrows">
+            (30 matches)
+          </span>
+        </h2>
+      <table class="listing tickets">
+          <thead>
+        <tr class="trac-columns">
+          <th>
+            <a href="/sgsistemas/report/733?sort=ticket&amp;max=0&amp;asc=1&amp;page=1">
+              Ticket
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=summary&amp;max=0&amp;asc=1&amp;page=1">
+              Summary
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=component&amp;max=0&amp;asc=1&amp;page=1">
+              Component
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=owner&amp;max=0&amp;asc=1&amp;page=1">
+              Owner
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=type&amp;max=0&amp;asc=1&amp;page=1">
+              Type
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=version&amp;max=0&amp;asc=1&amp;page=1">
+              Version
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=status&amp;max=0&amp;asc=1&amp;page=1">
+              Status
+            </a>
+          </th><th>
+            <a href="/sgsistemas/report/733?sort=estimatedhours&amp;max=0&amp;asc=1&amp;page=1">
+              Pontos Estimados
+            </a>
+          </th><th colspan="100">
+            <a href="/sgsistemas/report/733?sort=sprint&amp;max=0&amp;asc=1&amp;page=1">
+              Sprint
+            </a>
+          </th>
+        </tr><tr class="trac-columns">
+          <th colspan="100">
+            <a href="/sgsistemas/report/733?sort=_description_&amp;max=0&amp;asc=1&amp;page=1">
+              Description
+            </a>
+          </th>
+        </tr><tr class="trac-columns">
+        </tr>
+          </thead>
+          <tbody>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221618">#1221618</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221618">SP1/2 - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 08/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">4
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221622">#1221622</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221622">RETROSPECTIVA - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 16/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">4
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221626">#1221626</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221626">REVIEW - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 17/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">4
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221637">#1221637</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221637">ALTERACAO TICKET-PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 16/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">4
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221617">#1221617</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221617">SP1/2 - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 01/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">3
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221621">#1221621</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221621">RETROSPECTIVA - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 08/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">3
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221625">#1221625</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221625">REVIEW - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 10/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">3
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221636">#1221636</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221636">ALTERACAO TICKET-PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 08/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">3
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221616">#1221616</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221616">SP1/2 - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 25/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">2
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221620">#1221620</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221620">RETROSPECTIVA - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 01/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">2
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221624">#1221624</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221624">REVIEW - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 03/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">2
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221635">#1221635</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221635">ALTERACAO TICKET-PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 01/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">2
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221615">#1221615</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221615">SP1/2 - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 18/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221619">#1221619</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221619">RETROSPECTIVA - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 25/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221623">#1221623</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221623">REVIEW - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 27/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221634">#1221634</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221634">ALTERACAO TICKET-PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 25/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221627">#1221627</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221627">REUNIAO MENSAL DO DESENVOLVIMENTO - SGCLOUD - 10/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221628">#1221628</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221628">ENCERRAMENTO DO PROJETO - PROJETO SGCLOUDFISCAL202208 - 17/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221629">#1221629</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221629">AUDITORIA DE GC - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220715BP - 20/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221630">#1221630</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221630">AUDITORIA DE GC - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 17/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221631">#1221631</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221631">AUDITORIA DE GQA - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220715BP - 21/07/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221632">#1221632</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221632">AUDITORIA DE GQA - PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 18/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-odd">
+              </tr>
+              <tr class="color-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221633">#1221633</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221633">GERACAO BASELINE-PROJETO SGCLOUDFISCAL202208 - BASELINE 20220812BE - 16/08/22</a>
+                          </td>
+                          <td class="component">CMMI
+                          </td>
+                          <td class="owner">SGCLOUD_FISCAL_PROJETO
+                          </td>
+                          <td class="type">Ata
+                          </td>
+                          <td class="version">
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">
+                          </td>
+                          <td class="sprint">
+                          </td>
+              </tr><tr class="color-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            
+                            <hr />
+                          </td>
+              </tr><tr class="color-even">
+              </tr>
+              <tr class="color4-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1219209">#1219209</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1219209">COMERCIAL &gt; VENDA &gt; FATURAR VENDA &gt; EMITIR NOTA &gt; ENVIAR POR EMAIL &gt; MODAL: CONFIGURAR ENVIO DA NOTA POR EMAIL &gt; MELHORIA NO TITULO DO MODAL E DOS BOTOES "NAO" E "SIM".</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">caroline
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">2.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">COMERCIAL &gt; VENDA &gt; NOVA VENDA &gt; FATURAR &gt; EMITIR NFE &gt;  MODAL: EMISSÃO DO DOCUMENTO FISCAL &gt; BOTÃO: ENVIAR POR EMAIL &gt;  MODAL: CONFIGURAR ENVIO DA NOTA POR EMAIL.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE OCORRE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">Atualmente o título do modal é "Configurar envio da Nota por Email" e os botões de confirmar são "Não" e "Sim". Realizar melhorias na tela.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">A) Alterar o título do modal para: Enviar Nota por E-mail;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; Alterar os Botões "Sim" e "Não" para: Enviar e Cancelar;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; deverá ficar semelhante ao modal "Envio de nota por e-mail" (Fiscal &gt; Notas &gt; Ações &gt; Enviar por Email).</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">B) Alterar a cor dos botões "Enviar por Email" e "Detalhes da Nota" para Azul;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; a cor dos botões irão mudar somente após a NFe for Autorizada. Enquanto estiver com status diferente de autorizada, o botão permanecerá na cor cinza e indisponível para fazer envio/visualizar detalhes;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; verificar se quando a nota está Rejeitada ou Enviada, o botão "Detalhes da Nota" fica disponível. Caso fique, permanecer este comportamento, alterando a cor do mesmo para Azul;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; Renomear o botão "Enviar por Email" para = "Enviar por <u>E-</u>mail".</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Previsão no Anexo.</font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-odd">
+              </tr>
+              <tr class="color4-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1219715">#1219715</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1219715">COMERCIAL &gt; VENDA &gt; INCLUIR PRODUTO &gt; 3 PONTINHOS &gt; AJUSTES FISCAIS &gt;ATUALMENTE NAO TRAZ OS DADOS PREENCHIDOS DO CADASTRO DE PRODUTO.</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">caroline
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">2.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">COMERCIAL &gt; VENDA &gt; INCLUIR PRODUTO &gt; 3 PONTINHOS &gt; AJUSTES FISCAIS.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE OCORRE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">Atualmente não traz os dados do produto já preenchidos.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">Se estes campos estiverem preenchidos no cadastro do produto, trazer carregado na tela. </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; Se for feita alteração das informações, não deve ser alterado no cadastro, somente na venda.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Observação: levantar a o.s que solicitou a criação dessa tela pois em Sizing acreditamos que essa tela deve ser apenas informativa. Sugestão do coordenador: deixar a tela somente para visualização sem opção de alterar.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Prints no Anexo.</font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-even">
+              </tr>
+              <tr class="color4-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221808">#1221808</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221808">CADASTROS &gt; PRODUTOS &gt; NOVO/EDITAR &gt; ABA: FISCAL &gt; CRIAR NOVA ABA PARAINSERIR CONFIGURACOES RELACIONADAS AO PIS/COFINS.</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">matheuslima
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">3.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">CADASTROS &gt; PRODUTOS &gt; NOVO/EDITAR &gt; ABA: FISCAL.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Consumo dos enums no front;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Validação de preenchimento dos campos;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Persistencia dos campos no back.</font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-odd">
+              </tr>
+              <tr class="color4-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221817">#1221817</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221817">CADASTROS &gt; PRODUTOS &gt; ABA: FISCAL &gt; CRIAR UM NOVO MENU DENTRO DA PAGINA PARA ADICIONAR OUTRAS OPCOES FISCAIS. CRIAR UMA NOVA ABA: BENEFICIOS FISCAIS.</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">caroline
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">3.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE (FRONT-END):</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">CADASTROS &gt; PRODUTOS &gt; ABA: FISCAL.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#996699; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">Criar a entidade que vai fazer a relação entre o produto e a lista de benefícios fiscais e terminar as validações no Front-End.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- O.S de referencia do SGAnálise: 1037740</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Previsões no Anexo.</font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-even">
+              </tr>
+              <tr class="color4-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1218364">#1218364</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1218364">NFE E NFCE: CRIAR TAG &lt;CBENEF&gt; NO XML.</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">caroline
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">5.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">NFE E NFCE. </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">Criar a tag  <strong>&lt;cBenef&gt;</strong> no XML quando for emitido uma NFe ou NFCe pelos módulos de Vendas e Notas Avulsas, utilizando CST com Benefício Fiscal.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; <u>Trecho do XML</u>: </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&lt;det nItem="1"&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">    &lt;prod&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;cProd&gt;999999&lt;/cProd&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;cEAN&gt;SEM GTIN&lt;/cEAN&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;xProd&gt;PRODUTO TESTE&lt;/xProd&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;NCM&gt;85171231&lt;/NCM&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;CEST&gt;2105301&lt;/CEST&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">         &lt;!-- Código de Benefício Fiscal na UF  --&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        <font style="color:#009999"><strong>&lt;cBenef&gt;RS051011&lt;/cBenef&gt;</strong></font></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;CFOP&gt;6411&lt;/CFOP&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;uCom&gt;PC&lt;/uCom&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;qCom&gt;4.0000&lt;/qCom&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;vUnCom&gt;4000.185000&lt;/vUnCom&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;vProd&gt;16000.74&lt;/vProd&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;cEANTrib&gt;SEM GTIN&lt;/cEANTrib&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;uTrib&gt;PC&lt;/uTrib&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;qTrib&gt;4.0000&lt;/qTrib&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;vUnTrib&gt;4000.185000&lt;/vUnTrib&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;indTot&gt;1&lt;/indTot&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">    &lt;/prod&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">    &lt;imposto&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;ICMS&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">            &lt;ICMS40&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">                &lt;orig&gt;2&lt;/orig&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">                &lt;!-- Código da Situação Tributária --&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">                <strong>&lt;CST&gt;40&lt;/CST&gt;</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">            &lt;/ICMS40&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">        &lt;/ICMS&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">    &lt;/imposto&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&lt;/det&gt;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- XML emitido no SGAnálise para exemplo no Anexo.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-odd">
+              </tr>
+              <tr class="color4-even">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1220942">#1220942</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1220942">CRIAR UMA TABELA "NATUREZA_RECEITA_PIS_COFINS", ELA DEVE TER OS CAMPOSCODIGO_TABELA | CODIGO | DESCRICAO | NCM | ALIQ PIS | ALIQ COFINS |INICIO_ESCRITURACAO | TERMINO_ESCRITURACAO&gt; IMPORTAR OS ARQUIVOS EM ANEXO.</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">caroline
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">13.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-even" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">BACK-END.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">A) Criar uma nova tabela:</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; Nome: NATUREZA_RECEITA_PIS_COFINS (NATURE_REVENUE)</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">&gt; nela deve ter as colunas:</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">CODIGO_TABELA | CODIGO | DESCRICAO | NCM | ALIQ_PIS | ALIQ_COFINS | INICIO_ESCRITURACAO | TERMINO_ESCRITURACAO |</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">B) Após criar a tabela, importar os arquivos disponíveis no Anexo.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Tabelas no Anexo.</font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-even">
+              </tr>
+              <tr class="color4-odd">
+                          <td class="ticket">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221806">#1221806</a>
+                          </td>
+                          <td class="summary">
+                            <a title="View ticket" href="/sgsistemas/ticket/1221806">MENU &gt; CONFIGURACOES &gt; ADICIONAR O TRIBUTADOR NO CADASTRO DE GRUPO DEIMPOSTO.</a>
+                          </td>
+                          <td class="component">SGCLOUD
+                          </td>
+                          <td class="owner">tiagobarbosa
+                          </td>
+                          <td class="type">Tarefa
+                          </td>
+                          <td class="version">12/08/22
+                          </td>
+                          <td class="status">new
+                          </td>
+                          <td class="estimatedhours">13.0
+                          </td>
+                          <td class="sprint">1
+                          </td>
+              </tr><tr class="color4-odd" style="border: none; padding: 0;">
+                          <td class="fullrow" colspan="100">
+                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">MENU &gt; CONFIGURAÇÕES &gt; GRUPO DE IMPOSTO.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Ajustar o objeto para ser igual ao que já está sendo enviado hoje para salvar o grupo fiscal e a tributação pois, hoje é criado de forma distinta, então precisa seguir esse mesmo fluxo;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Ajustar o select do CFOP para buscar por código e descrição;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Revisar as validações para salvar as tributações, para ser igual já faz hoje.</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p>
+
+                            <hr />
+                          </td>
+              </tr><tr class="color4-odd">
+              </tr>
+          </tbody>
+      </table>
+      
+      <div id="help"><strong>Note:</strong>
+        See <a href="/sgsistemas/wiki/TracReports">TracReports</a> for help on using and creating reports.</div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="first">
+          <a rel="nofollow" href="/sgsistemas/login?referer=%2Fsgsistemas%2Freport%2F733%3Fasc%3D1%26max%3D0%26format%3Drss" class="rss">RSS Feed</a>
+        </li><li>
+          <a rel="nofollow" href="/sgsistemas/report/733?asc=1&amp;max=0&amp;page=1&amp;format=csv">Comma-delimited Text</a>
+        </li><li>
+          <a rel="nofollow" href="/sgsistemas/report/733?asc=1&amp;max=0&amp;page=1&amp;format=tab">Tab-delimited Text</a>
+        </li><li class="last">
+          <a rel="nofollow" href="/sgsistemas/report?id=733&amp;format=sql">SQL Query</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/sgsistemas/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">Powered by <a href="/sgsistemas/about"><strong>Trac 1.0.17</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class="right">Viste o site da SGSistemas em<br /><a href="http://www.sgsistemas.com.br/">http://www.sgsistemas.com.br/</a></p>
+    </div>
+  </body>
+</html>
